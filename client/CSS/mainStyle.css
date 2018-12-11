@@ -1,0 +1,237 @@
+.main {
+    height: 90vh;
+    margin-top: 10px;
+}
+
+#tech-header {
+    text-align: center;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#progressbar li {
+    color: rgb(0,0,0);
+}
+
+#form-areas-select {
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.navbar {
+    background: linear-gradient(to right, #e74c3c, #000000) !important;
+}
+
+#navBar {
+    margin: 0 auto;
+}
+
+#main-nav {
+    display: none;
+}
+
+.navbar-collapse button {
+        background: linear-gradient(to right, #485563, #4e555e); 
+        color: rgb(255,255,255);
+}
+
+.lecturer-table {
+    display: none;
+}
+
+.lecturer-table tr {
+    font-weight: 600;
+}
+
+table, table td{
+    text-align: center;
+    color: rgb(0,0,0);
+}
+.lecturer-table th {
+    font-size: 18px;
+}
+.lecturer-table td {
+    color: black ;
+    font-size: 16.5px;
+    white-space: nowrap;
+}
+
+.lecturer-first-name:hover {
+    cursor: pointer;
+    color: #e74c3c;
+
+}
+
+ li {
+    text-align: center;
+}
+
+.list-group {
+    overflow: scroll;
+}
+
+.list-group-item {
+    border-radius: unset !important;
+}
+
+#skills-ul {
+    height: 250px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 700px;
+}
+
+#skills-ul li {
+    font-size: 14px;
+}
+
+#skills-ul li:hover {
+    box-shadow: 0 0 0 1px rgb(68, 70, 69);  
+}
+
+
+
+#skills-ul label:hover , #skills-ul input[type=checkbox]:hover {
+    cursor: pointer;
+}
+
+#skills-ul select {
+    position: absolute;
+    margin-left: 15px;
+}
+
+#skills-ul input[type=checkbox] {
+    margin-right: 15px;
+}
+
+#success-msg {
+    display: none;
+    width: 50% !important;
+    padding: 30px;
+    margin: 0 auto !important;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 0;
+    opacity: 0.9;
+}
+
+#success-msg-txt {
+    text-align: center;
+}
+
+.del-edit-btns {
+    display: inline-block;
+    float: right;
+
+}
+
+.selected {
+    color: red !important;
+}
+
+tbody tr:hover {
+    cursor: pointer;
+}
+
+.Ucb {
+    float: right;
+    margin: 2px;
+}
+
+#userTable {
+    width: 100% !important;
+}
+
+.lecturer-div {
+    height: 80vh !important;
+    overflow-x: auto;
+    margin: 0 auto;
+    width: 95vw;
+}
+
+#btns {
+    margin-bottom: 200px;
+}
+
+.emptyField {
+    border: 1px solid red !important;
+}
+
+#lect-table-id {
+    width: 100% !important;
+}
+
+#lect-table-id_filter {
+    float: left !important;
+    margin-left: 15px !important;
+}
+
+#current-signed-user {
+    color: white;
+    margin-right: 20px;
+}
+
+.column-filter-div {
+    display: inline-block;
+    position: relative;
+    right: 0%;
+    margin-bottom: .5rem;
+    margin-right: 5px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.lecturer-filter-div {
+    display: inline-block;
+    font-weight: 600;
+}
+
+.kaki:hover {
+    cursor: pointer;
+}
+
+.filtered {
+    display: table-cell !important;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+    height: 4px;
+}
+  
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: linear-gradient(to right, #a8a5a4, #5d4545, #a8a5a4) !important;
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255, 0.5);
+}
+
+.navbar-brand {
+    font-weight: 600 !important;
+}
+
+#search-div , #buttons-div {
+    display: inline-block;
+}
+
+#table-util {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error {
+    border: 1px solid rgb(182, 64, 64) !important;
+}
